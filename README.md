@@ -1,0 +1,2 @@
+# Learning-Projects
+This repository holds my projects I have completed to learn and showcase new skills.
