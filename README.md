@@ -3,5 +3,4 @@ This repository holds my projects I have completed to learn and showcase new ski
 
 New Skills:                                                                                                                                                                       
 
- -Power BI                                                                                                                                                                         
-    -Credit Card Defaults
+   Power BI                                                                                                                                                                                -Credit Card Defaults
