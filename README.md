@@ -5,4 +5,5 @@ New Skills:
 
    Power BI                                                                                                                                                                         
       -Credit Card Defaults
+      -Customer Catelog Requests
       -
