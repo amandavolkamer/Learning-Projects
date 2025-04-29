@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="UrnBLabel">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>250</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Urn B</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FiftyFifty">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>280</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>50:50</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="UrnLeft">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>91</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Urn.PNG</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="UrnALabel">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>250</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Urn A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="UrnRight">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>91</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Urn.PNG</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="UrnAButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Urn A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="UrnBButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Urn B</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Instructions">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>100</y>
+      <width>281</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Urn &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-style:italic;&quot;&gt;B&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; contains 50 red marbles and 50 blue marbles.  Urn &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; contains 100 marbles in an unknown color ratio, from 100 red marbles and 0 blue marbles to 0 red marbles and 100 blue marbles.  The mixture of red and blue marbles in Urn &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; has been decided by writing numbers 0,1,2, …, 100 on separate slips of paper, shuffling the slips thoroughly, and then drawing one of them at random.  The number chosen was used to determine the number of blue marbles to be put in Urn &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;, but you do not know the number.  Every possible mixture of red and blue marbles in Urn &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; is equally likely. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;You have to decide whether you prefer to draw a marble at random from Urn &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; or Urn &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-style:italic;&quot;&gt;B&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;.  What you hope is to draw a blue marble and be entered for the £30 lottery draw.  Consider very carefully from which urn you prefer to draw the marble, then click the corresponding button for your decision.  You will draw a marble from your chosen urn straight afterwards. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Which Urn do you choose?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Unknown">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>290</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>???</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>615</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
