@@ -5,7 +5,7 @@
 
 ---
 
-This is a challenge I have completed before in my previous roles.  I wanted to tackle this challenge again as a side project to showcase my skills.
+This is a challenge I have completed before in my previous role as part of the Citizen Developer Program.  I wanted to tackle this challenge again as a side project to showcase my skills.
 Some of the challenges this time around were limited access to some parts of the Microsoft suite since I was using just my personal account.
 So instead of directly using Excel which the challenge data is downloaded as, I put that data into a datatable within the workflow to complete this challenge.
 
