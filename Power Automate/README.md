@@ -18,6 +18,8 @@ Some of the workflows for the RPA Challenges were tasks I've completed in my pre
 - Excel
 - Browser Automation
 - Loops
+- Conditionals
+- Text Manipulation
 - Flow Control
 - UI Automation
 - UI Elements
@@ -33,14 +35,13 @@ Some of the workflows for the RPA Challenges were tasks I've completed in my pre
 - **Challenge:** Complete 10 rounds of dynamic form submissions from an Excel file where form field order changes after each submission.
 - **Solution:** Used **UI Selectors** and targeted unique **IDs** within elements to match fields regardless of their visual order.
 
----
-
-## 📋 Upcoming Workflows Ideas
-
 ### 🧩 RPA Challenge - RPA Stock Market: https://rpachallenge.com/
 - **Tools Used:** Power Automate Desktop, Google Chrome, Excel
 - **Challenge:** Search for specific stocks and extract data to stoare in a datatable. 
 - **Solution:** Use **UI Selectors** and Web Page Data Extraction actions.
+---
+
+## 📋 Upcoming Workflows Ideas
 
 ### 🧩 RPA Challenge - Shortest Path: https://rpachallenge.com/
 - **Tools Used:** Power Automate Desktop, Google Chrome
@@ -51,3 +52,9 @@ Some of the workflows for the RPA Challenges were tasks I've completed in my pre
 - **Tools Used:** Power Automate Desktop, Google Chrome
 - **Challenge:** Extract data on job postings from LinkedIn based on specific search parameters.  The purpose is to have a more focused and refined list of job postings that better fit my person job search criterias than the internal search feature has capabilities for.
 - **Solution:** Use **UI Selectors**, conditionals, error handling, data transoformation.
+
+### Attended Automated Contest Submission
+- **Tools Used:** Power Automate Desktop, Google Chrome
+- **Challenge:** Click to submit to a series of contests which includes skipping ads while the submission loads.
+- **Solution:** Use **UI Selectors**, conditionals, error handling, data transoformation.
+
